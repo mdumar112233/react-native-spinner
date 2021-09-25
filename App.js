@@ -10,7 +10,7 @@ function HomeScreen({navigation}) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
-      <Button onPress={() => navigation.navigate('Home2')} title='home'/>
+      <Button onPress={() => navigation.navigate('Home2')} title='spinner'/>
     </View>
   );
 }
